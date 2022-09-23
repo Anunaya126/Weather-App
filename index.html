@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="search">
+        <form id="search_form">
+            <input type="search" id="search-text" placeholder="Search by city name">
+            <button class="search-btn" type="submit">Search</button>
+        </form>
+        <!-- <input type="text" class="search-bar" placeholder="Enter city name:" name="city">
+        <button class="search-btn">Search</button> -->
+    </div>
+
+    <div class="card">
+
+        <div class="left">
+            <img src="" alt="" class="icon" />
+            <h1 class="temp">29°C</h1>
+            <div class="buttons">
+                <button class="celcius highlight">°C</button>
+                <button class="fahrenhiet">°F</button>
+            </div>
+            <div class="details">
+                <ul>
+                    <li>Cloudy</li>
+                    <li>60%</li>
+                    <li>5.2 km/h</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <h2 class="city">Bengaluru</h2>
+            <p>Date and time</p>
+            <p>Partly Cloudy</p>
+        </div>
+    </div>
+    </div>
+    <script src="Weather.js"></script>
+</body>
+
+</html>
